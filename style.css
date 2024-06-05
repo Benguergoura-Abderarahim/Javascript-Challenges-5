@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("./style.img/rm218batch5-katie-18.jpg");
+}
+
+#title {
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 1%;
+  margin: 1%;
+  background-color: rgb(77 77 77);
+  color: rgb(255 255 255);
+}
+
+#listParentNode {
+  margin: 1%;
+  padding: 1%;
+  align-items: center;
+  text-align: left;
+}
+
+#listParentNode li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  font-size: 30px;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: 1%;
+  padding: 1%;
+}
+
+#listParentNode li:nth-child(odd) {
+  background-color: rgb(255 244 224);
+}
+
+#listParentNode li:nth-child(even) {
+  background-color: rgb(255 191 155);
+}
+
+button {
+  text-align: center;
+  font-size: 20px;
+  margin-left: auto;
+  border-radius: 15px;
+  padding: 0.2%;
+  justify-content: space-around;
+  color: #f7fbf7;
+}
+
+button.edit {
+  margin-left: 13.813px;
+  width: 5%;
+  background-color: #4848b3;
+}
+
+button.delete {
+  width: 7%;
+  background-color: #a83f3f;
+}
+
+.input {
+  border-radius: 10px;
+  font-size: 25px;
+  width: 90%;
+  padding: 0.2%;
+}
+
+#input-btn {
+  text-align: center;
+  font-size: 30px;
+  margin-right: auto;
+  border-radius: 15px;
+  padding: 0.3%;
+  justify-content: space-around;
+  width: 6%;
+  background-color: #49a349;
+}
